@@ -2,358 +2,357 @@
   "Sztuczna Inteligencja (AI) i Prompty": [
     {
       "entry": "AI",
-      "definition": "Artificial Intelligence. Technologia umożliwiająca maszynom wykonywanie zadań wymagających ludzkiego uczenia się i wnioskowania. Obejmuje dziedziny takie jak analiza danych, rozpoznawanie obrazów oraz generowanie treści. Powszechnie wykorzystuje się ją do automatyzacji procesów w biznesie, medycynie czy obsłudze klienta."
+      "definition": "Artificial Intelligence. Technologia umożliwiająca maszynom wykonywanie zadań wymagających ludzkiego myślenia. Obejmuje analizę danych, rozpoznawanie obrazów oraz generowanie treści. Służy do automatyzacji procesów w biznesie, medycynie i obsłudze klienta."
     },
     {
       "entry": "GenAI",
-      "definition": "Generative Artificial Intelligence. Zaawansowany podzbiór sztucznej inteligencji skoncentrowany na tworzeniu zupełnie nowych treści ze zróżnicowanych danych wejściowych. Modele te potrafią samodzielnie generować teksty, obrazy, kod programistyczny, dźwięk i wideo na polecenie użytkownika. Technologia ta drastycznie usprawnia i automatyzuje pracę kreatywną oraz analityczną."
+      "definition": "Generative Artificial Intelligence. Zaawansowany podzbiór sztucznej inteligencji skoncentrowany na tworzeniu zupełnie nowych treści. Modele te generują teksty, obrazy, kod, dźwięk i wideo na polecenie użytkownika. Automatyzują pracę kreatywną oraz analityczną."
     },
     {
       "entry": "LLM",
-      "definition": "Large Language Model. Potężny model architektoniczny trenowany na ogromnych, wieloterabajtowych zbiorach danych tekstowych w celu przetwarzania i symulowania ludzkiego języka. Jego głównym zadaniem jest dogłębne rozumienie kontekstu poleceń i płynne generowanie konwersacji. Stanowi bezpośredni silnik technologiczny dla popularnych asystentów takich jak ChatGPT czy Claude."
+      "definition": "Large Language Model. Potężny model językowy trenowany na ogromnych zbiorach danych tekstowych. Rozumie kontekst wypowiedzi i płynnie generuje ludzką mowę. Stanowi bezpośredni silnik dla asystentów takich jak ChatGPT czy Claude."
     },
     {
       "entry": "SLM",
-      "definition": "Small Language Model. Kompaktowy i zoptymalizowany model językowy charakteryzujący się znacznie niższym zapotrzebowaniem na zasoby sprzętowe i obliczeniowe. Z uwagi na zmniejszoną wagę może funkcjonować w pełni lokalnie na urządzeniach mobilnych lub komputerach osobistych bez stałego połączenia z chmurą. Gwarantuje znacznie wyższy poziom prywatności i bezpieczeństwa poufnych dokumentów firmowych."
+      "definition": "Small Language Model. Kompaktowy i zoptymalizowany model językowy o niskich wymaganiach sprzętowych. Może funkcjonować lokalnie na komputerach i urządzeniach mobilnych bez połączenia z chmurą. Gwarantuje wysoki poziom prywatności danych."
     },
     {
       "entry": "RAG",
-      "definition": "Retrieval-Augmented Generation. Metoda architektoniczna pozwalająca modelom AI automatycznie odpytywać zewnętrzne i rzetelne bazy wiedzy bezpośrednio przed wygenerowaniem tekstu. Konfrontuje to przewidywania algorytmu z faktycznymi, twardymi źródłami informacji w czasie rzeczywistym. Redukuje zjawisko halucynacji i zapewnia najwyższą aktualność rynkową generowanych odpowiedzi."
+      "definition": "Retrieval-Augmented Generation. Metoda architektoniczna łącząca model AI z zewnętrznymi, rzetelnymi bazami wiedzy. Model sprawdza fakty bezpośrednio przed wygenerowaniem odpowiedzi. Skutecznie redukuje zjawisko halucynacji AI."
     },
     {
       "entry": "ReACT",
-      "definition": "Reasoning and Acting. Architektura działania stosowana w nowoczesnych agentach AI, łącząca proces logicznego wnioskowania z możliwością wykonywania fizycznych akcji w systemach zewnętrznych. Model analizuje problem krok po kroku, a następnie samodzielnie wykonuje takie procedury jak przeszukiwanie internetu czy odpytywanie API. Znacząco zwiększa skuteczność systemów podczas rozwiązywania wysoce zawiłych, nieliniowych problemów badawczych."
+      "definition": "Reasoning and Acting. Architektura działania agentów AI łącząca logiczne wnioskowanie z wykonywaniem akcji. Model analizuje problem krok po kroku i samodzielnie korzysta z narzędzi, np. API czy wyszukiwarki. Pomaga rozwiązywać zawiłe problemy badawcze."
     },
     {
       "entry": "ADK",
-      "definition": "Agent Development Kit. Dedykowany pakiet gotowych bibliotek i narzędzi programistycznych przyspieszający konstruowanie, testowanie oraz masowe wdrażanie autonomicznych asystentów AI. Dostarcza inżynierom moduły niezbędne do zarządzania pamięcią bota, śledzenia logiki działań oraz łączenia go z zewnętrznym oprogramowaniem. Pozwala na błyskawiczne skrócenie czasu budowy firmowych inteligentnych automatyzacji."
+      "definition": "Agent Development Kit. Pakiet gotowych bibliotek i narzędzi programistycznych do budowania autonomicznych asystentów AI. Dostarcza moduły do zarządzania pamięcią bota i łączenia go z zewnętrznym oprogramowaniem. Przyspiesza wdrażanie automatyzacji firmowych."
     },
     {
       "entry": "MCP",
-      "definition": "Model Context Protocol. Ustandaryzowany, bezpieczny protokół komunikacyjny umożliwiający dużym modelom językowym odbieranie szerszego kontekstu bezpośrednio z zewnętrznych źródeł środowiska użytkownika. Organizuje i systematyzuje integrację interfejsów opartych na sztucznej inteligencji z firmowymi dyskami i platformami danych. Zwiększa to płynność i jakość wnioskowania systemu na bazie wyizolowanych i specyficznych dokumentacji firmowych."
+      "definition": "Model Context Protocol. Ustandaryzowany protokół bezpiecznej komunikacji dla dużych modeli językowych. Pozwala AI na pobieranie szerszego kontekstu bezpośrednio ze środowiska użytkownika. Ułatwia integrację modeli z firmowymi dyskami i bazami danych."
     },
     {
       "entry": "NLP",
-      "definition": "Natural Language Processing. Kluczowa dziedzina z pogranicza informatyki i lingwistyki pozwalająca komputerom na zaawansowaną analizę, rozumienie oraz bezbłędne przetwarzanie ludzkiej mowy. Odpowiada technicznie za skomplikowaną analizę składni, tłumaczenia symultaniczne w locie, ekstrakcję najistotniejszych faktów oraz ocenę sentymentu emocjonalnego. Jest fundamentem budulcowym dla absolutnie wszystkich chatbotów i zaawansowanych systemów rozpoznawania mowy na rynku."
+      "definition": "Natural Language Processing. Dziedzina z pogranicza informatyki i lingwistyki zajmująca się analizą i przetwarzaniem ludzkiej mowy przez komputery. Odpowiada za analizę składni, tłumaczenia automatyczne oraz ocenę emocjonalnego sentymentu. Jest fundamentem chatbotów."
     },
     {
       "entry": "A2A",
-      "definition": "Agent-to-Agent. Model architektury rozproszonej definiujący swobodną komunikację i bezpośrednią współpracę poleceń pomiędzy całkowicie zautomatyzowanymi jednostkami sztucznej inteligencji. W takim schemacie boty mogą samodzielnie negocjować parametry, wymieniać kryptograficzne poświadczenia i handlować aktywami, bez ingerencji i weryfikacji przez człowieka. Umożliwia wdrożenie wysoce złożonych, połączonych i wielowarstwowych ekosystemów transakcyjnych i zarządczych."
+      "definition": "Agent-to-Agent. Model architektury rozproszonej oparty na bezpośredniej komunikacji między autonomicznymi jednostkami AI. Boty mogą samodzielnie wymieniać informacje, negocjować parametry i realizować zadania bez udziału człowieka. Umożliwia budowanie złożonych ekosystemów."
     },
     {
       "entry": "A2UI",
-      "definition": "Agent-to-User Interface. Innowacyjny paradygmat interakcji nakazujący inteligentnemu asystentowi dynamiczne komponowanie interfejsów graficznych idealnie dopasowanych pod kątem danego polecenia użytkownika. Zamiast otwierać statyczne i przestarzałe menu, system na życzenie tworzy od zera potrzebne tabele, suwaki i interaktywne pulpity kontrolne. Maksymalizuje to znacznie klarowność i szybkość prezentacji zawiłych strumieni danych bezpośrednio we front-endzie."
+      "definition": "Agent-to-User Interface. Paradygmat interakcji, w którym asystent AI dynamicznie generuje interfejs graficzny dla użytkownika. Zamiast stałego menu, system tworzy na żywo potrzebne tabele, wykresy i suwaki. Zwiększa to szybkość i przejrzystość prezentacji danych."
     },
     {
       "entry": "DELTA",
-      "definition": "Data, Exact task, Limits, Tone, Action. Standaryzowany framework używany podczas inżynierii i projektowania złożonych promptów w celu uzyskania wysokojakościowych wyjść od silników językowych. Wymusza dokładne zdefiniowanie tła sytuacyjnego, sprecyzowanie ścisłych celi, określenie ram objętościowych oraz wskazanie oczekiwanego tonu i finalnego wezwania do działania. Skutecznie uodparnia komendy na dwuznaczności semantyczne oraz wyklucza logikę z tendencją do dezinformacji i powstawania halucynacji bota."
+      "definition": "Data, Exact task, Limits, Tone, Action. Framework służący do inżynierii i projektowania skutecznych promptów dla modeli językowych. Wymaga zdefiniowania danych wejściowych, dokładnego zadania, ograniczeń, tonu i końcowej akcji. Zapobiega powstawaniu halucynacji."
     },
     {
       "entry": "SPICE",
-      "definition": "Setting, Persona, Information, Context, Execution. Silnie zaawansowana metodyka formułowania skomplikowanych zapytań dla zoptymalizowania pracy z wielkimi asystentami takimi jak ChatGPT. Wymaga wykreowania w wytycznych sprecyzowanego świata akcji, dokładnej roli zawodu odgrywanego przez algorytm, szczegółowego zasobu wiedzy oraz ograniczeń procesowych narzuconych na model w locie. Skutecznie standaryzuje przewidywalność systemową wdrażaną w zautomatyzowanych sieciach korporacyjnych."
+      "definition": "Setting, Persona, Information, Context, Execution. Zaawansowana metodyka formułowania zapytania do modeli AI. Określa otoczenie, rolę systemu, szczegółowe zasoby informacji, kontekst sytuacyjny oraz sposób wykonania zadania. Standaryzuje działanie modeli w firmach."
     },
     {
       "entry": "WIZJA",
-      "definition": "Wyzwanie, Informacja, Zespół, Jak to wdrożyć, Analiza (autorski akronim ramowy). Zorganizowany proces analityczno-strategiczny dla zarządów transformujących technologicznie swoje struktury z użyciem generatywnej sztucznej inteligencji. Umożliwia precyzyjną weryfikację gotowości firmowych baz danych, planowanie wdrożeń krótkoterminowych MVP i niweluje całkowicie paraliż technologiczny. Ogranicza wysokie obarczone budżetowo ryzyka operacyjne niedopasowania silnika do uwarunkowań logistycznych firmy."
+      "definition": "Wyzwanie, Informacja, Zespół, Jak to wdrożyć, Analiza. Zorganizowany proces strategiczny dla zarządów transformujących firmę za pomocą generatywnej sztucznej inteligencji. Służy do oceny gotowości baz danych oraz planowania pierwszych wersji produktów typu MVP."
     }
   ],
   "Marketing i Reklama": [
     {
       "entry": "AIDA",
-      "definition": "Attention, Interest, Desire, Action. Znany w psychologii czteroetapowy model komunikacji rynkowej wytyczający klasyczny cykl podejmowania świadomej decyzji konsumenckiej w lejku zakupowym. Taktyka nakazuje początkowo błyskawiczne i agresywne zwrócenie uwagi, po czym płynnie transformuje zaciekawienie w skrajne pożądanie asortymentu przed zażądaniem działania na przycisku akcji. Stanowi bezwzględnie obowiązującą strukturę w tworzeniu skutecznych sekwencji dla stron typu landing page czy wielomilionowych reklam płatnych w internecie."
+      "definition": "Attention, Interest, Desire, Action. Klasyczny model komunikacji marketingowej opisujący etapy decyzji klienta w lejku zakupowym. Nakazuje przyciągnąć uwagę, wzbudzić zainteresowanie, wywołać pożądanie i skłonić do działania. Stosowany w reklamach i na stronach sprzedażowych."
     },
     {
       "entry": "PAS",
-      "definition": "Problem, Agitation, Solution. Niezwykle agresywny psychologiczny szkielet tekstowy i struktura często wdrażana w ofertach i tekstach skupiających się na wywołaniu i zamykaniu szybkiej transakcji z ruchu chłodnego. Bazuje na wskazaniu precyzyjnego problemu bólu w środowisku adresata, maksymalizowaniu negatywnych wizji następstw dla umysłu, kończąc natychmiastowym ulokowaniem reklamowanego produktu jako ostatecznego remedium i panaceum na kłopoty. Obniża znacznie blokadę w racjonalizacji przed niepotrzebnym dla klienta wydatkiem luksusowym i podnosi mocno wskaźniki odrzuceń u kupujących przyzwyczajonych do stonowanej narracji."
+      "definition": "Problem, Agitation, Solution. Psychologiczny szkielet tekstów reklamowych nastawiony na szybką sprzedaż. Polega na wskazaniu konkretnego problemu klienta, potęgowaniu jego negatywnych skutków oraz przedstawieniu produktu jako jedynego rozwiązania. Podnosi wskaźniki konwersji."
     },
     {
       "entry": "FAB",
-      "definition": "Features, Advantages, Benefits. Rama koncepcyjna wykorzystywana do dekomponowania suchych parametrów asortymentu bezpośrednio na emocjonalne zyski nabywcze podczas argumentacji sprzedawcy. Metodologia nakazuje by wymiar fizyczny (np. wielki akumulator) zredukować do przewagi technologicznej i od razu nakierować wprost do docelowego i namacalnego spokoju klienta uwięzionego na bezdrożach o utracie prądu dla swoich spraw finansowych. Przenosi ciężar i koncentracje rozproszenia w pełni poza parametry techniczne celując bezpośrednio by skłonić pod wpływem intuicji z prawych półkul w mózgu do natychmiastowego zamknięcia kontraktacji."
+      "definition": "Features, Advantages, Benefits. Model prezentacji oferty sprzedażowej. Przekłada suche cechy techniczne produktu na jego zalety użytkowe i ostateczne korzyści dla klienta. Przenosi ciężar argumentacji z parametrów na emocjonalne zyski nabywcy."
     },
     {
       "entry": "BAB",
-      "definition": "Before, After, Bridge. Bardzo konwersyjna, liniowa technika narracyjna bazująca na obrazowaniu gwałtownego przejścia behawioralnego dając odbiorcy kontrastową percepcję dla wyeliminowania jego złego standardu u siebie po wdrożeniu obcego środka do systemu. Prezentuje tragiczny start ze żmudnym procesem, następnie rysuje wizję absolutnej utopii, na koniec nakierowując pod zakup bezpośrednio stanowiący jedyną ścieżkę dotarcia ze stanu na stan w postaci owego pomostu handlowego ze sklepem w tle. Stanowi on i buduje więzi oraz utrwalenia percepcyjne marki i lojalizuje przy systematycznym używaniu reklam u trenerów na siłowni dających przed i po."
+      "definition": "Before, After, Bridge. Konwersyjna technika narracyjna oparta na kontraście. Pokazuje negatywną sytuację obecną klienta, wizję idealnej przyszłości oraz reklamowany produkt jako jedyny pomost do jej osiągnięcia. Buduje silne powiązanie z marką."
     },
     {
       "entry": "USP",
-      "definition": "Unique Selling Proposition. Podstawowy mechanizm z zakresu pozycjonowania firmowego polegający na definicji jednego, potężnego waloru i zalety niedostępnej całkowicie w ujęciach konkurencji i kopiowanej przez asortymenty wielkich sieciówek z obcych i zalewanych państw na portalu. Gwarantuje i wyjaśnia klientom obiektywny powód decydujący dlaczego mają zapłacić gigantyczną premię za identyczny produkt z zewnątrz, omijając pułapkę opartą wyłącznie z wyniszczającej rywalizacji giełdowej na ucinaniu cen pod sufit opłacalności w branży dając zabezpieczoną od krachów pozycję. W braku tego rdzenia odcinane są w większości pakiety sprzedażowe ratując firmę na marżach u wielkich rynków wirtualnych e-handlu na świecie i zmuszając do wejścia w potężne fuzje celem uniknięcia upadku pod presją dyskontu obcego giganta z giełdy w stanach z zalanym towarem."
+      "definition": "Unique Selling Proposition. Unikalna propozycja sprzedaży. Jedna kluczowa zaleta produktu lub firmy, która wyróżnia ją na tle całej konkurencji. Pozwala unikać wyniszczającej rywalizacji cenowej i uzasadnia wyższą marżę na rynku."
     },
     {
       "entry": "CTA",
-      "definition": "Call To Action. Najważniejszy elementarne interakcyjny i najmocniej optymalizowany przycisk we wszystkich kampaniach w branży e-commerce z twardym i bezwzględnym poleceniem pod kątem zachowania odbiorców w oknach cyfrowych na stronach lądowania podczas wejść i opuszczeń sklepów po reklamach. Posiada z reguły formę klikalnego i skrajnie wyodrębnionego barwą imperatywu wydanego do działania (np. Kup Teraz) w miejscu centralnym by wymusić z pominięciem logicznych wędrówek zrealizowanie definitywnego skoku za pomocą portfela z ułatwieniem w bramce transakcji do natychmiastowego przelewu odłożonej gotówki z karty z chmury do dostawcy usługi od oprogramowania unikając strat dla zapominalskich kupców na potężnych serwisach transakcyjnych u potęg na giełdach technologicznych na zewnątrz z zyskiem."
+      "definition": "Call To Action. Wezwanie do działania. Wyróżniający się element interaktywny w kampaniach reklamowych i na stronach internetowych, najczęściej w formie przycisku (np. Kup Teraz). Ma na celu natychmiastowe skłonienie użytkownika do wykonania akcji."
     },
     {
       "entry": "SCAMPER",
-      "definition": "Substitute, Combine, Adapt, Modify, Put to another use, Eliminate, Reverse. Ustrukturyzowana koncepcja siedmiu pytań generujących u inżynierów w zespole projektantów gigantyczne zjawisko rewizji i nowatorskie pomysły do wdrażania radykalnych usprawnień do asortymentu przed upadkiem za nieopłacalną formę dla firmy pod presją klientów z sieci domowej u globalnego potentata przed sprzedażą i wypuszczeniem innowacji. Pomaga krok po kroku odwrócić właściwości fizyczne pod względem odrzutu i wag co doprowadza wprost i rewolucyjnie pod wielkie sukcesy technologiczne optymalizujące parametry baterii unikając kopiowania identycznego błędu u inżynierów konkurencji po premierze i redukcji cen po zapasach w wielkich kontenerach na globalnych liniach u dostawców logistyki by zachować kapitał u akcjonariusza we wdrożeniach."
+      "definition": "Substitute, Combine, Adapt, Modify, Put to another use, Eliminate, Reverse. Metoda siedmiu pytań służąca do generowania innowacji i ulepszania produktów. Pomaga krok po kroku modyfikować, łączyć lub eliminować cechy asortymentu w celu stworzenia przewagi rynkowej."
     },
     {
       "entry": "5W+H",
-      "definition": "Who, What, When, Where, Why, How. Klasyczna technika dla weryfikowania pełnych informacji ze śledztwa pochodząca ze starych standardów szkoleniowych wywiadu by opisać wszystkie parametry przed odpaleniem w agencji drogiej dystrybucji docelowej dając ujęcia ze śledztwa o obiekcie docelowym, warunkach pod geografię do precyzyjnych i dogłębnych złożeń w portretowaniu kluczowych awatarów na grupy i segmenty wykluczając nieodwracalne i kosztowne ominięcie wielkiej informacji która decyduje z punktu o tym w jakich strefach kampanii i u jakiego lidera od dystrybucji na świecie alokuje się po zaciągnięciu potężnego wkładu gotówkowego cały zasób operacyjny funduszu z akcją od deweloperów oprogramowań od wirtualnej gry wydanej u wydawcy."
+      "definition": "Who, What, When, Where, Why, How. Klasyczna technika zbierania kompletnych informacji. Odpowiada na pytania: Kto, Co, Kiedy, Gdzie, Dlaczego i Jak. Wykorzystywana do precyzyjnego profilowania grup docelowych oraz planowania kampanii marketingowych."
     },
     {
       "entry": "SEO",
-      "definition": "Search Engine Optimization. Powolny i rozbudowany technologiczny rygor z działaniami w e-marketingu uderzający długofalowo o naturalne pierwsze i najwyższe wyświetlenia z pominięciem reklam w algorytmach wielkich robotów skanujących na potężnych indeksach w portalach takich jak chmura pod wyszukiwania od Google. Zawiera ogrom prac nad deweloperskimi i czystymi kodami od strony technicznej z wymuszonym pisaniem unikatowych obszernych tekstów eksperckich dając autorytet domeny przez ściąganie silnych linków obcych pod firmowy portal do stałego, bezpłatnego czerpania gigantycznego ruchu klientów unikając w potyczce wykrwawiania się u budżetu miesięcznego z licytacji u agencji reklam PPC przed sezonem zakupowym u obcych systemów aukcji o wysokich prowizjach."
+      "definition": "Search Engine Optimization. Optymalizacja stron pod kątem wyszukiwarek internetowych. Długofalowe działania techniczne i treściowe nakierowane na zdobycie najwyższej, bezpłatnej pozycji w Google. Buduje stały ruch na stronie bez płacenia za kliknięcia."
     },
     {
       "entry": "PPC",
-      "definition": "Pay Per Click. Agresywna giełdowa machina licytacji rozliczana finansowo wyłącznie w milisekundach po twardym aktywowaniu kliknięcia przez palec na docelowy i promowany przez wydawcę baner omijając płatność i haracz od wyświetlanych reklam z nie zainteresowanym zakupami tłumem z pominięciem tradycyjnej opłaty przed blokami z billboardem i ucinając ubytek portfeli od startu unikając weksli za pustą gablotę. To przeważnie wykorzystywany mechanizm we wszystkich potężnych aplikacjach social media od GoogleAds gwarantujący doskonałe mierzenie z wyśrubowanym i optymalizowanym dla rentowności odyskiwaniem wydanego w obrocie pieniądza u dużych podmiotów."
+      "definition": "Pay Per Click. Model rozliczeń reklamowych, w którym reklamodawca płaci wyłącznie za fizyczne kliknięcie użytkownika w link lub baner. Umożliwia precyzyjne mierzenie efektywności oraz pełną kontrolę nad budżetem w systemach typu Google Ads."
     },
     {
       "entry": "RSA",
-      "definition": "Responsive Search Ads. Wersja sztucznej wieloaspektowej reklamy w pełni budowanej za pomocą procesorów uczenia by nałożone kombinacje wyrzucanych tekstów rotowały się samoczynnie w ułamkach pod dopasowanie psychologii zachowania klikacza od zapytań dopasowanych pod wywołane frazy. Minimalizuje bezduszne, ręczne przesuwania budżetów zwalniając całkowicie czas pracy za potężne miesięczne kontrakty dla zespołu u analityka na rzecz sztucznej licytującej chmury od dostawców co znacząco zawyża i wygrywa wyścigi po konwersję kliknięć."
+      "definition": "Responsive Search Ads. Elastyczne reklamy tekstowe w wyszukiwarce Google. Reklamodawca wprowadza wiele nagłówków i opisów, a system AI automatycznie testuje ich kombinacje. Dopasowuje treść reklamy do konkretnego zapytania użytkownika."
     },
     {
       "entry": "ACI",
-      "definition": "App Campaigns for Installs. Oddelegowany w pełni zamknięty format ekosystemowy u giganta technologicznego nastawiony celowo dla uzyskania maksymalnych wskaźników przy instalacji docelowej paczki i ikony pod telefony u klientów mobilnych dający automatyczne porozrzucanie pod wszystkie wielkie powiązane portale z siecią jak Play czy YouTube omijając twarde weryfikacje za ustawienie parametrów przez zespół. Model wymaga do uruchomienia od wdrożeniowca zapasów w zdjęciach czy filmikach z pominięciem jakiegokolwiek sztywnego suwaka i wiedzy od ręki rzucając w sieć miliony zachęt instalacji dla produktu gier pod telefony od dewelopera."
+      "definition": "App Campaigns for Installs. Zautomatyzowane kampanie Google nastawione na instalację aplikacji mobilnych. System samodzielnie dystrybuuje reklamy w sieciach Google Play, YouTube i wyszukiwarce. Wymaga od dewelopera jedynie podstawowych materiałów graficznych."
     },
     {
       "entry": "ABCD",
-      "definition": "Attract, Brand, Connect, Direct. Framework analityczny wymuszony od inżynierów badaczy z portalu z gigantami dystrybucji YouTube dla określenia poprawnej ścieżki i tworzenia formatów z uderzeniem w percepcje na reklamach pod pliki i wideo ograniczając palenie waluty. Narzuca twardy warunek by zaingerować pozycją obrazka dla wzbudzenia ciekawości w czasie trzech pierwszych startowych sekund po ekspozycji od razu rzucając mocno logotyp by wywołać wielkie więzi emocjonalne do wydania twardego stanowczego zlecenia wezwania pod zamknięcie po wizycie unikając ominięć przez konsumenta i braku zapamiętywalności z reklam w TV w systemach dla dystrybutorów z e-commerce u liderów portalu."
+      "definition": "Attract, Brand, Connect, Direct. Framework Google służący do tworzenia skutecznych reklam wideo na platformie YouTube. Nakazuje przyciągnąć uwagę w pierwsze 3 sekundy, wyraźnie pokazać markę, zbudować więź emocjonalną i podać jasne wezwanie do działania."
     }
   ],
   "Sprzedaż i Obsługa Klienta": [
     {
       "entry": "B2B",
-      "definition": "Business to Business. Wysoce sformalizowana działalność oparta u podstaw na fakturowaniu relacji transakcyjnych polegająca na obrocie bezpośrednio do komitetów decyzyjnych innych wielkich spółek operacyjnych odcinając we wdrożeniach konsumenta fizycznego w supermarkecie u handlu domowego z procesem zakupowym. Z uwagi na gigantyczne uwarunkowania jest często bardzo długim cyklem, pełnym racjonalizacji z wielo decyzyjnym wekslowaniem na zarządach i szukając oparcia ze strategicznego faktu na redukcji opłat dla wielkiej fabryki poprzez udowodnienie zwrotów u inwestora ze sprzedaży w wielomilionowych maszyn dla rynku."
+      "definition": "Business to Business. Model transakcji handlowych realizowanych wyłącznie pomiędzy firmami. Charakteryzuje się długim cyklem sprzedaży, obecnością komitetów decyzyjnych oraz racjonalną argumentacją opartą na zwrocie z inwestycji (ROI)."
     },
     {
       "entry": "B2C",
-      "definition": "Business to Consumer. Powszechna domena światowego i ogólnego handlu z nastawieniem przed półką do zaopatrywania rynku z fizycznym i ostatecznym konsumentem wyciągającym natychmiast własny portfel na asortyment by ukończyć transakcje na spontanicznym działaniu ze skierowaniem i ułatwieniem interfejsu u e-sklepu. Opiera się u podstaw o wielkich ilościach wizyt obniżających wygórowane ceny budując agresywne taktyki ze zniżkami by wyeliminować logikę na prawą część półkuli i dać szybkie uśmiechy w procesie odpakowywania paczek obniżając bariery i opory przy koszykach po transakcji od lidera pod rynki od sprzedaży butów lub turystyki w sieci domowej od klienta i bez osobowości pod ewidencją."
+      "definition": "Business to Consumer. Sprzedaż skierowana bezpośrednio do ostatecznego klienta indywidualnego. Proces zakupowy opiera się na szybkich, często emocjonalnych decyzjach. Charakteryzuje się dużą liczbą transakcji i prostymi interfejsami sklepów."
     },
     {
       "entry": "BANT",
-      "definition": "Budget, Authority, Need, Timing. Bezwzględny paradygmat służący szybkiej kwalifikacji na liniach dla lidera zespołu by zablokować straty po uświadamianiu klientów z grupy marzycieli i zapobiec stratom za długie miesiące rozmów na konferencjach nie wnosząc transakcji na tabele z wynikami z pominięciem zysków operacyjnych za poświęcony zasób od handlu do wdrożeń w firmie w branży konsultingu technologicznego z pominięciem obiektywnego zakwalifikowania by zapobiec bankructwu firmy na obsłudze. Definiuje on autoryzacje i ramy obiektywnego odczytu kapitałowego od księgowości dającego autoryzowane zgody od dyrektora i powagę palącej chęci dla zamknięcia i odpalenia maszyny u nabywcy w twardym harmonogramie z datami od ubezpieczeń dającego gwarant że to rentowny biznes w obrotach od kwartału."
+      "definition": "Budget, Authority, Need, Timing. Klasyczny model kwalifikacji potencjalnych klientów w sprzedaży B2B. Weryfikuje budżet klienta, decyzyjność rozmówcy, realną potrzebę oraz harmonogram zakupu. Chroni handlowców przed marnowaniem czasu."
     },
     {
       "entry": "MEDDIC",
-      "definition": "Metrics, Economic Buyer, Decision Criteria, Decision Process, Identify Pain, Champion. Oparta pod rygorem potężnych korporacyjnych przetargów architektura w procesach operowania o wielomilionowe umowy dla IT oznaczająca drobiazgowe upewnienia handlowca by dotrzeć i przeanalizować pod kątem zwrotów po zyskach naczelnika o uprawnieniach z budżetem znając tajny harmonogram podejmowanych zgód na szczytach wekslowych bez którego sprzedaż utyka na zarządzie w niewiedzy by wypromować z rewelacyjnymi zachętami ambasadora dla firmy we wnętrzu dającego ciche rekomendacje wprost na faworyzowany z zewnątrz podmiot unikając przepalania projektowych wycen pod licytację i przegrywania gigantycznych umów i wielkich wdrożeń dla wielkiej branży przemysłowej dając nieograniczony zysk na dziesięciolecia dla firm od SaaS."
+      "definition": "Metrics, Economic Buyer, Decision Criteria, Decision Process, Identify Pain, Champion. Zaawansowana struktura zarządzania procesem sprzedaży w dużych przetargach korporacyjnych. Pomaga zidentyfikować decydentów, kryteria wyboru i kluczowe problemy klienta. Zwiększa szanse na wygranie umów."
     },
     {
       "entry": "BATNA",
-      "definition": "Best Alternative To a Negotiated Agreement. Mechanizm uodparniający w psychologii decyzyjnej nakazujący ze spotkania i przed obrotowym zamknięciem na konferencji w licytacjach określić absolutną linię ewakuacyjną i bezsprzeczną formę najtańszego zamiennika na wyjście u obcego dostawcy bez żalu za utraconą relacją ratując nerwowość zarządu przed fiaskiem w procesie ucinając przewagę szantażową drugiego bieguna by obniżyć z prowizji i marż operacyjnych u agencji dając twardą strefę zabezpieczającą z silnym lewarem przed naciskami od bezwzględnego monopolisty dla przetargów i dając ochronę budżetową przed bankructwem pod wymuszeniami ze względu na opóźnienia towarowe na liniach rynkowych u klientów o statusach dużych korporacji po przetargu."
+      "definition": "Best Alternative To a Negotiated Agreement. Najlepsza alternatywa dla negocjowanego porozumienia. Absolutna linia ewakuacyjna określana przed wejściem na negocjacje. Chroni przed zaakceptowaniem złych warunków i daje silny lewar psychologiczny."
     },
     {
       "entry": "ZOPA",
-      "definition": "Zone Of Possible Agreement. Wąska, ograniczona tolerancja u obu stron na stołach negocjacyjnych obejmująca nakładające i zadowalające do podziału widełki z obszarów pomiędzy ostatecznymi stop-lossami z wekslami u obu negocjatorów powyżej których następuje i rozbija się fizycznie porozumienie odrzucając na wieki zyski dając krach od wejścia w nieznaną linię bólu do strat dla zarządów korporacyjnych pod wdrożeniami dla IT u spółek i wielkich banków państwowych na obcym terytorium o różnym tle kulturowym pod biznes dając do odgadnięcia bezbłędnie obszar dający zadowolenie po stronie z transakcji bez ryzyka u obu stron przy licytacji zysku."
+      "definition": "Zone Of Possible Agreement. Strefa możliwego porozumienia w negocjacjach. Nakładający się obszar pomiędzy maksymalną ceną, jaką kupujący może zapłacić, a minimalną ceną, za jaką sprzedający jest gotów oddać produkt. Warunkuje sukces transakcji."
     },
     {
       "entry": "DMU",
-      "definition": "Decision Making Unit. Ciche i ukryte niejednokrotnie lobby wewnątrz spółki powołane przez CEO dla autoryzowania i wdrażania za wiele milionów skomplikowanej wymiany operacyjnej systemu posiadające odrębne u ubezpieczycieli interesy i wywodzące inżyniera z problemami we wdrażaniach z księgowością ograniczającą przepaści wydatków do budżetów dla kadry i działających pod szefem zakupów by zamknąć na wspólnym oświadczeniu gigantyczny transfer operacyjny po ułożeniu dla każdego odrębnie dającego satysfakcję atrybutu o zysku z oprogramowania i ratując account managerów B2B ze strat dając bezwzględny obowiązek by obsłużyć w komunikacji i uspokoić po spotkaniach na zarządach każdego w systemie ról zanim odpalą blokady decyzyjne we władzach centralnych po transakcji pod akceptację prawną z urzędów i dając do wdrożenia pliki wykonawcze u wszystkich działów po ubezpieczeniu operacji od krachu."
+      "definition": "Decision Making Unit. Komitet decyzyjny wewnątrz firmy klienta. Grupa osób o różnych rolach (np. księgowy, inżynier, szef zakupów), które wspólnie zatwierdzają zakup skomplikowanego systemu IT. Wymaga dopasowania komunikacji do każdego uczestnika."
     },
     {
       "entry": "LAER",
-      "definition": "Listen, Acknowledge, Explore, Respond. Sformalizowany wzorzec z korporacyjnych treningów dla miękkiej i trudnej obsługi konfrontacyjnej u opornych kontrahentów ucinający obronę ze sprzedaży u sprzedawców w walce na rzecz odczarowania agresji pod presją po wysłuchaniu pretensji i autoryzowaniu lęków przez doradcę z jednoczesnym poszukaniem prawdy u pacjenta i rzuceniu rzetelnej riposty popartej pod tabelę dając absolutne opanowanie obiekcji z wynikiem w zysku i relacji na dekadę u obcego dotąd lidera po weryfikacji sprzętu i ułatwieniu w zamykaniu w sprzedaży unikając frustrujących kłótni po rozkładach transakcji w trudnym otoczeniu e-commerce ze statystyką spadków we frontach pod wdrożeniami dając pokój z rynkiem na lata po opóźnieniach na produkcji u klienta z kapitałem operacyjnym z akcji ze stanów u deweloperów oprogramowań od stron mobilnych u firm wysyłkowych ze świata rynków zagranicznych we wdrożeniach na stanach."
+      "definition": "Listen, Acknowledge, Explore, Respond. Sformalizowany model obsługi obiekcji i trudnych sytuacji z klientem. Nakazuje wysłuchać pretensji, uznać emocje rozmówcy, głęboko zbadać problem i udzielić rzeczowej odpowiedzi. Pomaga budować relacje."
     },
     {
       "entry": "CARE",
-      "definition": "Connect, Answer, Respect, Engage. Modele operujące pod strategią cyfrowego ocieplania twardych relacji handlowych B2B przy budowaniu wiarygodności przez portal do łączenia kontaktów na zewnątrz w sieci odrzucający obciążające telefony i agresywne maile na portfel oznaczając wielką zmianę w social-sellingu u ekspertów poprzez angażowanie kompetencji od udostępniania i merytorycznego diagnozowania usterek u prezesów by zbudować więź dając szacunek w wejściu pod transakcję z lejkami ukrytymi na koncie i wykazując się nie narzucaniem towarów wejściowych od deweloperów usług dla sprzedaży dających gładkie wyjście w autorytet na tle i wyższe szanse po przetargach we frontach po spotkaniach u liderów."
+      "definition": "Connect, Answer, Respect, Engage. Strategia budowania wiarygodności i relacji w sprzedaży B2B (social selling). Polega na merytorycznym angażowaniu się w dyskusje i odpowiadaniu na pytania. Odrzuca agresywną sprzedaż na rzecz edukacji klienta."
     },
     {
       "entry": "SPANCO",
-      "definition": "Suspect, Prospect, Approach, Negotiation, Close, Order. Standaryzacja cyklu analitycznego rzucająca twardy podział od wyjściowego tłumu pod weksle na stołach by w procesie zarządzającym i audytującym wychwycić zjawiska z wykrwawień statystycznych na konkretnym etapie i wymusić korekty operacyjne po załogach szkoląc lidera na twardych negocjacjach omijając luki na odrzucanie ofert po zamknięciach u sprzedawców na froncie ratując zarządy z upadków finansowych dając obraz potoków i cięcia błędów u działów reklam z wyrzuceniem do poprawy i wyeliminowaniem martwych punktów sprzedażowych o ujemnej rencie dających marnotrawstwo budżetu po portfelach e-handlu na świecie we wszystkich obszarach B2B od dziesięcioleci dających podstawę pod e-commerce dając narzędzia analityki i ocen na zysk dla menadżerów na raporty i analitykę w portfelach do wdrożeń na wyjściach."
+      "definition": "Suspect, Prospect, Approach, Negotiation, Close, Order. Standaryzacja etapów pełnego cyklu sprzedaży. Pozwala menedżerom audytować lejek sprzedażowy i wykrywać luki w efektywności zespołu. Służy do optymalizacji przychodów firmy."
     },
     {
       "entry": "CRM",
-      "definition": "Customer Relationship Management. Fundamentalne wdrożenie technologiczne w rdzeń z informacjami do potężnych ewidencji baz i utrzymania wielkich wektorów operacyjnych u wszystkich interakcji cyfrowych na przestrzeni życia klienta z zapobieganiem krachom na obsłudze po utratach rotacyjnych etatów u agentów nie niosąc luki po zwolnieniach i dając twardy wgląd na przychody z lejka z pełnym harmonogramem zadań ułatwiającym skalowalność za kapitał zagraniczny obniżając i tnąc bariery na zatory technologiczne u dyrektorów sprzedaży by uderzać automatyzacjami wiadomości bezpośrednio we wdrożeniach na stanach e-commerce z twardym wynikiem pod kontrolą obrotu w portalu webowym bez ukrytych po excelach starych danych dla analityków na raportach u prezesów zarządów w wielkich sieciach za marżę od e-handlu po sieci domowej od klienta i bez osobowości u całego państwa po cyfryzacji na rynkach zewnętrznych UE i wejściu do Stanów ze swoim towarem."
+      "definition": "Customer Relationship Management. System informatyczny do zarządzania relacjami z klientami. Gromadzi całą historię interakcji, statusy transakcji oraz harmonogramy zadań w jednym miejscu. Zapobiega utracie danych po odejściu pracowników."
     },
     {
       "entry": "CSAT",
-      "definition": "Customer Satisfaction Score. Bezlitosna mierzalna i sztywna liczba wyliczająca z rygorem nastroje od klienta zaraz z wdrożeniami lub na opuszczeniach od centrum z obsługą uderzając małą ankietą po mailach i dając twardą stawkę za system u prezesów ze skali by wyrzucić do kosza irytujące wadliwe procesy w locie dając poprawę i odcinając od rotacji portfeli unikając upadków ze straty kluczowych klientów przez wadę systemu wymuszając i monitorując wynagrodzenia z rzutem po słuchawkach za wynik od pomocy omijając ukryte awarie w ujęciach z góry."
+      "definition": "Customer Satisfaction Score. Wskaźnik satysfakcji klienta mierzony za pomocą prostej liczbowej ankiety wysyłanej tuż po kontakcie z obsługą lub wdrożeniem produktu. Pozwala na bieżąco monitorować jakość pracy zespołu."
     },
     {
       "entry": "VoC",
-      "definition": "Voice of Customer. Skondensowana metodologia chłodząca niekontrolowane zjawisko wymyślania zbędnego asortymentu nakazując uderzać badaniom bezpośrednio w niezależne recenzje u sklepów, wezwania u call-center z wyciąganiem na jaw narzekań i uświadamiając zespoły i analityków we wdrożeniach o zapalnych i palących bólach z oprogramowań po frontach wyrzucając zgadywanie od deweloperów oprogramowań od wirtualnej usługi po to by ostatecznie zatrzymać lojalnych użytkowników do usług ucinając zwroty paczek dla chmury u korporacji obniżając bariery dla nowych e-commerce ucinających budżety obrotowych projektów obarczonego ogromnym ryzykiem po chybionym wcelowaniu z usług na rynkach."
+      "definition": "Voice of Customer. Metodologia zbierania opinii, recenzji i zgłoszeń od użytkowników. Służy do ulepszania oprogramowania i produktów na bazie realnych problemów klientów. Eliminuje zgadywanie deweloperów i zmniejsza liczbę zwrotów."
     },
     {
       "entry": "IVR",
-      "definition": "Interactive Voice Response. Mechaniczny asystent wciskający na sztywno z drzewem komend od wejść telefonicznych dla sortowania do pomocy bezwzględnie z ucinającymi opcjami dla logiki nakazując piny by zderzyć dzwoniącego ze spowolnieniami wywołując nagminnie skrajne porzucenia i rzut ze słuchawki z brakiem logiki i rozumu w potoku ze słów z ominięciem wyjątków dając wejście i zastąpienie masowo przez wyedukowanego agenta konwersacyjnego rozumiejącego skomplikowaną ludzką irytację z potężną zdolnością rozwiązania w ułamkach pod adresem strony głównej we frontach o inżynierię nowoczesnego świata od spowolnienia rozwojowego po obróbce i rzucie po ułamku na żywego dyspozytora o ratunkowych zleceniach za ułamek czasu dla centrów."
+      "definition": "Interactive Voice Response. Interaktywne menu głosowe w centralach telefonicznych (wybór opcji za pomocą klawiatury telefonicznej). Służy do automatycznego sortowania połączeń. Obecnie zastępowane inteligentnymi botami głosowymi AI."
     }
   ],
   "Biznes, Zarządzanie i Prawo": [
     {
       "entry": "MŚP",
-      "definition": "Małe i Średnie Przedsiębiorstwa. Dominujący podmiot w gospodarkach operujący przy zatrudnieniach ograniczonych do wielkości poniżej wielkich fabryk generując nieoceniony podkład za podatki w państwach i napędzając zyskiem i brakiem biurokracji innowacyjne rewolucje za sprawą błyskawicznego rygoru wdrożeniowych modeli unikając obciążonych i zabetonowanych struktur wielkich potentatów wchodząc sprawnie w ubytki rynków dając stabilne prace milionom fizycznych rąk operując na mniejszych rynkach domowych lub wychodząc odważnie we wdrożeniach na stanach e-commerce z wejściami innowacji z odwagą na rynek."
+      "definition": "Małe i Średnie Przedsiębiorstwa. Dominujący podmiot w gospodarce napędzający wpływy z podatków. Charakteryzuje się brakiem biurokracji, elastycznością oraz szybkim wdrażaniem innowacji rynkowych. Zapewnia miejsca pracy dla milionów osób."
     },
     {
       "entry": "ROI",
-      "definition": "Return on Investment. Kluczowy współczynnik opłacalności ucinający ostatecznie sentymenty w inwestycjach udowadniający obiektywnie rządom na radach po kwartale wielkość i siłę z portfela za opłacony i zaryzykowany wydatek początkowy by natychmiast opuścić tonący rynkowy nieprzemyślany projekt wyrzucając oprogramowanie gdy stopa ukazuje niewypłacalność blokując przepalanie na utrzymanie za licencje ratując kapitały by weryfikować po cyklach zwrot wyższy od bezpiecznych giełdowych wielkich inwestycji u lidera rynku e-commerce z kapitałem do reinwestowania wektorów optymalizacji w handlu domowego."
+      "definition": "Return on Investment. Współczynnik zwrotu z inwestycji. Kluczowy wskaźnik finansowy oceniający opłacalność wydatków. Porównuje zysk netto z poniesionym kosztem początkowym, odrzucając sentymenty projektowe."
     },
     {
       "entry": "MVP",
-      "definition": "Minimum Viable Product. Wymagany przez gigantów giełdowych startowy format z odrzuceniem wizualnych wymogów i wycinając drogie koszty ucinając budżet z wyjściem prosto o udowodnienie bezwzględnego przymusu i potwierdzenia na koszyku dając wpłatę po surowym podkładzie redukując wymuszenia z inżynierii przed wypuszczeniem produktu na rynek we wdrożeniach u korporacji ograniczając astronomiczne palenie funduszy inwestora na start up w technologiach na świecie ratując przed chybieniem na wczesnym teście dla zjawisk."
+      "definition": "Minimum Viable Product. Produkt o minimalnej koniecznej funkcjonalności gotowy do wypuszczenia na rynek. Pozwala sprawdzić realne zapotrzebowanie klientów najniższym możliwym kosztem. Chroni budżet inwestorów i start-upów."
     },
     {
       "entry": "3W",
-      "definition": "Widzieć, Wybierać, Wdrażać. Uproszczony standard decyzyjny ostudzający lidera i zespół przed zjawiskiem gonitw pod wdrożeniami dla IT ucinający instalowanie maszyn po artykułach ze zleceniem rozpoznania głęboko ubytków po firmie odszukaniu i autoryzacji pod to na zimno maszyny z nieomylną operacyjną implementacją do ułożenia ratując przedsiębiorstwo z destrukcji przy nieskomunikowanych oprogramowaniach unikając inwestycyjnych pułapek pod obietnice deweloperów oprogramowań od wirtualnej gry z ubytkiem z obrotowych po chybionym teście przed premierą dając spokojny kierunek pod rentowność i zwrot na rynku obcych korporacyjnie dla wdrożeniowców i dla weryfikacji sprzętu i ułatwieniu zarządzania dla menadżerów na raporty na e-commerce zaopatrującym wszystkie firmy z logistyką w IT."
+      "definition": "Widzieć, Wybierać, Wdrażać. Standard decyzyjny chroniący przed pułapkami technologicznymi w IT. Wymaga zdiagnozowania realnych luk w firmie, obiektywnego doboru oprogramowania oraz przeprowadzenia wdrożenia. Zapewnia rentowność operacyjną."
     },
     {
       "entry": "HiPPO",
-      "definition": "Highest Paid Person's Opinion. Syndrom niszczący zarządy we wdrożeniach na stanach e-commerce polegający z wymuszenia o obranie kierunków za presją i autorytetem portfela od prezesa bez weryfikacji przez metryki analityczne co drastycznie ucina opłacalność na dekady zmuszając specjalistów z wiedzą za exodusem na etaty do konkurencji i narażając u decydentów potężne straty w inwestycjach w oparciu na \"instynktach z dawnych dekad\" ucinając racjonalizm z ułożeniem przed wejściami we wdrożeniach i przed wypuszczeniem innowacji pod weryfikację obcych za obiektywną analizą."
+      "definition": "Highest Paid Person's Opinion. Syndrom podejmowania decyzji w oparciu o zdanie najwyżej opłacanej osoby w firmie (np. prezesa). Ignoruje twarde metryki i analizy danych specjalistów. Często generuje duże straty inwestycyjne."
     },
     {
       "entry": "KPI",
-      "definition": "Key Performance Indicator. Najważniejszy element dla menadżera oparty u rygoru liczb definiujący ułamki o sukcesach bądź bankructwach dla powierzonych obiektywnie mu z portfela obszarów by oprzeć kwartał premiowy z ominięciem metryk pustych na rzecz obrotowych obniżeń np wadliwości dając twardy cel i redukcję stresów u pracowników o to jak we wdrożeniach na liniach jest on oceniany bez oparcia na zjawiskach nie dających wejściowej formy w dochód dla szefów firmowych na całym rynku świata w korporacji bez strachu u kupców i analityków we wszystkich wymiarach na terytorium o różnym tle dla oceny przy obrotowych i zawiłych w obróbkach systemach operacyjnych."
+      "definition": "Key Performance Indicator. Kluczowy wskaźnik efektywności. Mierzalna wartość liczbowa określająca stopień realizacji celów operacyjnych firmy. Stanowi obiektywną podstawę systemów premiowych i ocen."
     },
     {
       "entry": "OKR",
-      "definition": "Objectives and Key Results. Nowoczesny model od gigantów technologicznych definiujący w sposób jawny jeden wybitny wielki kierunkowy zryw zarządu przypinając po twardych weryfikowalnych na stole kluczowych rezultatach zadanie do zamknięcia na zespołach ucinając absolutne zżeranie czasowe na mało obrotowe procesy poboczne wywołując gigantyczne wektory za optymalizacją bez przymusu kontroli na pracownika dając przejrzystość na piętra wyżej by zjednoczyć korporacje pod jedno uderzenie kwartalne dając rentowny biznes bez ukrytych spięć w oddziałach na świecie na dekady dając nieograniczony cel ze skupieniem zespołów do końca wielkich wdrożeń dla wielkiej infrastruktury e-sklepu i bez osobowości prawnych w portfelach."
+      "definition": "Objectives and Key Results. Nowoczesna metoda zarządzania przez cele. Definiuje jeden ambitny kierunek firmy (Objective) oraz twarde, mierzalne rezultaty (Key Results) konieczne do jego osiągnięcia w kwartale. Zwiększa skupienie zespołów."
     },
     {
       "entry": "FRAME",
-      "definition": "Brak ustandaryzowanego rozwinięcia. Framework do kategoryzacji pod innowacyjne idee by nie zrzucić funduszy we wdrożeniach do kosza i ucinając ubytki z braku przemyślenia nakazując z rygorem udowadniania z wejść rynkowych zapotrzebowania by obciąć koszt oprogramowania chroniąc u właścicieli gotówkę na potoki ratując start-up we wczesnych seriach z weryfikacją na żywych i w pełni świadomych chęci wydania dolarów ludzi za problem u rozwiązanych aplikacji."
+      "definition": "Formulate, Render, Attach, Mock, Enable. Pięcioetapowy framework strukturyzacji i budowy produktów o minimalnej koniecznej funkcjonalności (MVP). Pomaga krok po kroku sformułować hipotezy biznesowe, stworzyć wizualizacje, połączyć gotowe komponenty, przygotować makiety i bezpiecznie uruchomić testy rynkowe. Chroni budżet przed przedwczesnym wydaniem kapitału na zaawansowane kodowanie."
     },
     {
       "entry": "RFP",
-      "definition": "Request For Proposal. Gigantyczna urzędowa z dokumentacją z wytycznymi od ubezpieczycieli instrukcja dla obcych gigantów przed wyceną od wdrożeń dająca obiektywne i niezmienialne weryfikacyjne parametry u zawiłych wielomilionowych instalacji dla państwowego i gigantycznego odbiorcy ucinając korupcje z sympatii dla faworytów by wyłonić merytorycznie bezpiecznego wydawcę uchronionego kapitałem w portfelach do wdrożeń na wyjściach przed krachem po niedowiezieniu serwerowych wytycznych bez których awaria blokuje kraj za ułamek nanosekundy dając wymuszenia by ochronić się na umowach z kar przed stratami finansów."
+      "definition": "Request For Proposal. Oficjalne zapytanie ofertowe. Rozbudowany dokument z technicznymi wymaganiami, wysyłany do zewnętrznych dostawców przed wielomilionowymi wdrożeniami. Zapewnia merytoryczne i bezpieczne porównanie ofert."
     },
     {
       "entry": "RODO",
-      "definition": "Rozporządzenie o Ochronie Danych Osobowych. Europejskie regulacje obciążające firmy za profilowanie zachowań pod użytkownika bez bezpośredniej zgody w wekslu ucinając i uderzając potężnymi stratami u zarządu w postaci kar na obrotach wyrównujących szanse konsumentów u rynkowych molochów handlujących plikami metadanych i chroniąc prywatność w sieci na dekady wymuszając zmianę od frontów u e-commerce zaopatrujących i agregujących dane u rynków obcych bezkarnie bez logiki na użytkownika od gigantów z zewnętrznych światowych chmur operujących bez autoryzacji u nas od deweloperów usług dla sprzedaży."
+      "definition": "Rozporządzenie o Ochronie Danych Osobowych. Europejskie regulacje prawne chroniące prywatność obywateli w sieci. Zakazują profilowania użytkowników bez ich wyraźnej zgody. Przewidują potężne kary finansowe liczone od obrotu firm."
     },
     {
       "entry": "KRS",
-      "definition": "Krajowy Rejestr Sądowy. Administracyjno-urzędowa publiczna platforma na zweryfikowanie jawne fakty z ułożenia obcych zarządów dająca bezpieczeństwo w umowach o wielkie kontrakty u ubezpieczycieli obniżając krach u dostawców weksli dla nieautoryzowanych prezesów za przekręty ukrywające wadliwość długu we władzach dająca twardą rzetelność pod rynki u weryfikacji dokumentu u całego państwa w urzędzie o spółkach dla obrotu pod biznes z zagranicy u deweloperów oprogramowań do dystrybucji na rynek u wydawcy we wdrożeniach na stanach handlu o wielkim nakładzie wekslowym dającym zaufanie transakcyjne ze statystykami i oceną u kupców i analityków ze świata biznesu."
+      "definition": "Krajowy Rejestr Sądowy. Publiczny rejestr urzędowy zawierający oficjalne dane o spółkach handlowych i fundacjach. Pozwala zweryfikować tożsamość członków zarządu, status prawny oraz zadłużenia kontrahenta. Zwiększa zaufanie transakcyjne."
     },
     {
       "entry": "CEIDG",
-      "definition": "Centralna Ewidencja i Informacja o Działalności Gospodarczej. Skonsolidowany publiczny informatyczny system pod ewidencjonowanie o działalności za najmniejszych u rynków bez osobowości prawnej dający rygor od skarbowych i transparentne monitorowanie na obrocie dający natychmiastowe uproszczenie do otwarcia e-commerce pod ubezpieczenia dla firm z odciążeniem placówek stacjonarnych z ubytkiem z czasu by zredukować urzędowe bariery do wejść we wdrażanie pomysłów do zysków i ułatwiając płacenie pod e-sklepu i państwo unikając wejść na giełdę."
+      "definition": "Centralna Ewidencja i Informacja o Działalności Gospodarczej. Publiczny system rejestracji jednoosobowych firm w Polsce. Umożliwia szybkie, darmowe i w pełni internetowe założenie oraz prowadzenie działalności bez osobowości prawnej."
     },
     {
       "entry": "TL;DR",
-      "definition": "Too Long; Didn't Read. Standardowy w korporacjach mechanizm obcinający z maila wielowątkowość do uderzenia we front dyrektora najistotniejszymi logami z ubytkiem tła dając wyjście u zarządu by uniknąć czasowego zżarcia za zapoznanie dokumentów u menadżerów zwalniając blokady decyzyjne we władzach po wyizolowaniu z rdzenia najważniejszych mierzalnych u opinii na stole kluczowych rezultatach ratując płynność asynchronicznej we wdrażaniach od dyktatury informacji by odrzucić u lidera zbędne wywody i ratować uwage u odbiorców z projektami operacyjnymi na liniach."
+      "definition": "Too Long; Didn't Read. Standard umieszczania ultrakrótkiego podsumowania najważniejszych faktów na samym początku długiego dokumentu lub maila. Pozwala menedżerom na błyskawiczne zapoznanie się z esencją sprawy."
     }
   ],
   "Analityka i Dane": [
     {
       "entry": "CSAT",
-      "definition": "Customer Satisfaction Score. Zwięzły liczbowy suwak wysyłany u użytkowników po kontakcie dla odczytania bezwzględnie rygoru u frontów w obsługach i napraw dający do wglądu kierownikom z biur straty po wadliwych systemach by zmienić i odciążyć nastroje ratując z upadków i rotacji portfeli dając premiowanie u pracownika po dobrych ocenach chroniąc markę o złą retencje z odrzuceń na rynkach w mediach za wielki ubytek dający ucieczkę na zewnątrz do potentata z obcej chmury pod umowy."
+      "definition": "Customer Satisfaction Score. Zwięzły liczbowy wskaźnik satysfakcji wysyłany użytkownikom po kontakcie z obsługą. Pomaga kierownikom monitorować jakość pracy i eliminować wadliwe procesy. Chroni markę przed utratą klientów."
     },
     {
       "entry": "LTV",
-      "definition": "Lifetime Value. Model z oceną całkowitą wyciągając do inwestorów w start-up informacje za dziesięć lat opłat licencyjnych dający opłacenie z nadwyżką jednorazowego pozyskania u klienta po wyszukiwarce ratując od giełdowego i politycznego odrzutu u akcjonariatu dając skalowalność bez wejść i ucinając ubytek pod warunkiem trzymania abonenta u usług w opozycji i blokady przed przejściem od lojalnych u lidera dający zdrową spółkę we wdrożeniach w ujęciu bez przepalania."
+      "definition": "Lifetime Value. Całkowita wartość klienta w czasie. Prognozowany zysk, jaki klient przyniesie firmie przez cały okres trwania relacji (np. lata subskrypcji). Pomaga ocenić opłacalność kosztów pozyskania klienta."
     },
     {
       "entry": "OCR",
-      "definition": "Optical Character Recognition. Technologie optycznego wyrzucania tekstu z fotografii w locie zrzucając i odciążając back-office z fakturowania dając ułatwienia od asystentów uczenia w automatyzacji z chmur obniżając i ucinając pracownika za przepisywanie pism ubezpieczeń ucinając i ułatwiając integracje u systemów na setkach placówek u gigantów w procedurach u korporacyjnych z systemami finansowymi pod weksle na rynkach obcych dla weryfikacji ze zwrotów na dokumentacji z opłat po zleceniach do zysków i wpłat."
+      "definition": "Optical Character Recognition. Technologia automatycznego rozpoznawania tekstu ze skanów lub zdjęć dokumentów fizycznych. Konwertuje grafikę na edytowalny plik cyfrowy. Odciąża działy księgowe i back-office."
     },
     {
       "entry": "GCP",
-      "definition": "Google Cloud Platform. Komercyjna usługa chmurowa od gigantów by odpalać we wdrożeniach nieskończone porty i zjawiska by zaoszczędzić firmę z serwerów u siebie chroniąc kapitały by trenować po miliardach pakietów do obrotu wyciągając moce przed startem na uderzenia globalne u użytkowników z natychmiastowym skalowaniem elastyczności obniżając i ograniczając do opłat tylko za czas użyty pod biznes obciążanego we front-end."
+      "definition": "Google Cloud Platform. Komercyjna platforma chmurowa dostarczająca moc obliczeniową, bazy danych oraz systemy AI. Pozwala na elastyczne skalowanie zasobów w zależności od ruchu. Rozliczana wyłącznie za faktycznie użyty czas."
     },
     {
       "entry": "JSON",
-      "definition": "JavaScript Object Notation. Lżejszy u podstaw plik na klucz weksla na zrzuty tekstowe dla asynchronicznej obróbki po portalach i obcych interfejsach wypierający gigantyczne pliki dając błyskawiczny rzut od modeli z uczeniem by analizować od frontu tablice obniżając bezdyskusyjnie rygor zżerania i awarii po pamięci operacyjnej do natychmiastowych wejść pod REST wyciąganych od zewnętrznych dystrybutorów u deweloperów oprogramowań od stron ze statystykami i analityką w chmurach u korporacji obarczonego bez spięć i usterek dla infrastruktury w internecie i usługach pod telefony u klientów ze świata dla przesyłania zapytań o informacje na serwer zewnętrzny bez uciążliwego kodu maszyn."
+      "definition": "JavaScript Object Notation. Lekki format tekstowy przeznaczony do strukturyzowanej wymiany danych. Oparty na parach klucz-wartość. Powszechnie stosowany do przesyłania informacji między serwerem a aplikacjami przez API."
     },
     {
       "entry": "GOG",
-      "definition": "Good Old Games. Znana polska witryna do zbytu w branżach u cyfrowych z grami blokująca i ucinająca z natury DRM co zabezpiecza na własność za kupca własność pakietów przed zamknięciem na zdalne w serwerach obniżając ograniczenia ucinając przymusy internetu z rewitalizacją silników od startych tytułów pod rygor dzisiejszych sprzętów zyskując u milionowej widowni na świecie portfel od zaufania dający zwrot we wdrożeniach giełdowych u giganta od CD Projekt obarczonego sukcesem."
+      "definition": "Good Old Games. Polska platforma cyfrowej dystrybucji gier wideo pozbawionych zabezpieczeń DRM. Zapewnia graczom pełną własność zakupionych plików oraz działanie starych tytułów na nowoczesnym sprzęcie. Należy do grupy CD Projekt."
     },
     {
       "entry": "KPI",
-      "definition": "Key Performance Indicators. Kluczowe i ściśle powiązane we wskaźnikach z rentownościami elementy by odseparować pod menadżerem wymierne rezultaty z działań wykluczając od analiz wskaźniki od metryk bez wpływu przed ocenami giełd dające zarządom obiektywnie oznaczanie dla portfeli i premii dając do rygoru kontrolę z popraw dla awarii ucinając zgadywanie od intuicji na e-commerce dając narzędzia ze wskaźnikami we frontach we wdrożeniach bez przepaleń i bez kłamstw i dając jasną ścieżkę do skalowań u firmowych na świecie w korporacji bez strachu u udziałowców o wynik na wekslu."
+      "definition": "Key Performance Indicators. Kluczowe wskaźniki efektywności powiązane z rentownością firmy. Służą do obiektywnej oceny rezultatów działań menedżerów i zespołów. Eliminują intuicję na rzecz twardych danych z e-commerce."
     },
     {
       "entry": "OKR",
-      "definition": "Objectives and Key Results. Metodyka u innowacji do wprowadzania jednego gigantycznego skoku za ambicjami po twardych ułamkach u rezultatów zrzeszając rozbite firmy pod kierunek na kwartał odpinając mniejsze priorytety by zaangażować operacyjne działy dla jawności bez zawiłości pod presjami by pracownik wytyczał i wiedział od zarządu z góry cele przed ocenami dając płynność by unikać spięć i obarczonego bezużytecznego w pracy działania w chmurach o gigantycznych projektach u udziałowców."
+      "definition": "Objectives and Key Results. Metodyka wyznaczania ambitnych celów i mierzalnych rezultatów na poziomie firmy. Jednoczy rozbite działy wokół jednego priorytetu w danym kwartale. Zwiększa jawność i płynność operacyjną."
     },
     {
       "entry": "GA4",
-      "definition": "Google Analytics 4. Dominator u analityków mierzący wielkie i małe interakcje pod wektor bez starych ciasteczek uderzający uczeniem maszynowym u logów użytkownika we frontach do łączenia uciekających ze ścieżki powiązań między laptopem a smartfonem w koszyku przed ocenami dla specjalistów dając obiektywnie o wskaźnikach reklamowych konwersje ratując i wspierając analityków by zyskowniej po rygorystycznych RODO wyłuskać pod giełdowe rynki rentowne obszary obniżając i ucinając ubytek ucinających budżety u e-commerce ze świata pod ocenę za kapitał na wekslach do obrotów ze spółkami zewnętrznymi na świecie od kampanii za miliony dolarów dla IT ucinając spadek dając obraz dla menadżerów."
+      "definition": "Google Analytics 4. Platforma analityczna Google do śledzenia zachowań użytkowników na stronach i w aplikacjach. Wykorzystywana do łączenia danych między różnymi urządzeniami przy użyciu uczenia maszynowego. Działa zgodnie z RODO."
     },
     {
       "entry": "SQL",
-      "definition": "Structured Query Language. Bazowy wektor od komend u analityka do wyrzucania ułamków rzędów z ogromnych baz pod raport dając weryfikację ze stanów po setkach gigabajtów na życzenia i eliminując oprogramowanie dla biurowców od ręcznego przerzutu i ucinając z żądań obniżając i wymuszając precyzyjne odzyski ze strukturalnych rygorystycznie z relacją tabel obarczonego i chronionego dla wydajnych na serwerach dla firm do masowych analiz dla danych od setek do wdrożeń bez awarii we frontach i bez zżerania całych serwerów chmurowych obarczonych ograniczeniem zasobu pod bazami i obarczonego ogromnym dla inżynierów z branż data od dekad na globalnych maszynowych procesach e-handlu na platformie by dawać bez pomyłek wyliczenia."
+      "definition": "Structured Query Language. Strukturalny język zapytań służący do zarządzania bazami danych. Pozwala analitykom na błyskawiczne przeszukiwanie, filtrowanie i agregowanie milionów rekordów z relacyjnych tabel serwerowych."
     },
     {
       "entry": "ROAS",
-      "definition": "Return On Ad Spend. Bezwzględny od odczytów dla wydawcy wskaźnik konwersyjny pod wejścia dla kampanii licytacji z wyszukiwarek obliczając dokładnie stopę zwrotową za weksel wyrzucając i tnąc na bieżąco przed wielkimi stratami błędne kreacje ucinając od portfeli budżet zanim e-sklep utraci płynność i wyeliminuje szansę w przenoszeniu gotówki pod opłacalne hasła we frontach pod rynki w e-handlu od dystrybutora ucinając i poprawiając zwroty za marżę od kliknięć na giełdowej machinie od Google i portali o zysku operacyjnym u właścicieli dla sklepu z oceną."
+      "definition": "Return On Ad Spend. Wskaźnik zwrotu z wydatków reklamowych. Informuje dokładnie, ile przychodu wygenerowała każda złotówka zainwestowana w kampanię marketingową. Służy do szybkiego wyłączania stratnych kreacji."
     },
     {
       "entry": "ERS",
-      "definition": "Effective Revenue Share. Wywrócenie we wskaźniku u góry by sprawdzić ile z zarobionych na sklepie marż pochłonie do zapłaty marketing ucinający w dół i ograniczając licytację pod pułapy nierentowności ratując przed samobójczym wejściem od e-commerce z budżetami wykluczając działy by nie pracowały u dystrybutorów z brakiem pokryć po odjęciu za weksle od klików dający limity na wejście bez obarczonego upadkiem we frontach u liderów o wielkim nakładzie."
+      "definition": "Effective Revenue Share. Wskaźnik określający efektywny udział kosztów reklamy w przychodzie. Pokazuje, jaki procent zarobionej marży pochłonęły działania marketingowe. Pomaga kontrolować progi opłacalności e-commerce."
     },
     {
       "entry": "NCA",
-      "definition": "New Customer Acquisition. Oddzielenie operacyjne we wdrożeniach pod lejki wydzielające wyłącznie weksle dla tych bez zakupów od marki by zapobiec zjawisku od kanibalizacji z wejściami w lojalnych wyrzucając miliony przed pustym promowaniem we frontach uderzając innym w komunikacji stylem dając konwersję i zdobywając do chmury świeży rzut od kapitałów przed wejściem i omijając przepalanie portfela ze stałych."
+      "definition": "New Customer Acquisition. Strategia i metryka skupiona wyłącznie na pozyskiwaniu całkowicie nowych klientów. Zapobiega zjawisku kanibalizacji budżetu przez reklamy trafiające do osób już lojalnych wobec marki."
     },
     {
       "entry": "ABCD",
-      "definition": "Attract, Brand, Connect, Direct. Odgórny rygor z Google by filmowe na YouTube budowały z chwytliwym startem u sekund we frontach emocje z logo ucinając odrzucenia u widzów i rzucając wprost polecenie by z wdrożeniem i zachętą uciec na sklep pod adres obarczonego uniknięciem od wejść o braku zwrotów u giganta przed stratą dla agencji dając twardy model za miliony pod telewizyjne w digitalu kampanie do kliknięcia."
+      "definition": "Attract, Brand, Connect, Direct. Framework Google określający zasady tworzenia skutecznych reklam wideo na YouTube. Wymaga przyciągnięcia uwagi, ekspozycji logo, budowania emocji oraz jasnego wezwania do przejścia na stronę sklepu."
     }
   ],
   "Technologia i Infrastruktura IT": [
     {
       "entry": "API",
-      "definition": "Application Programming Interface. Wektor i łącznik na komunikację dwóch obcych we wdrożeniach od producentów oprogramowań od wirtualnej infrastruktury ułatwiając i scementowując wymiany we front-end bez ręcznego w kodzie przerzutu dający integrację o płatności na portale czy chmury od logistyki dla sklepu. Omija i redukuje dublowania masowe dając ratunek pod szybkość w świecie u deweloperów oprogramowań do wypuszczania u usług rynkowych we wszystkich formatach z gotowych klocków."
+      "definition": "Application Programming Interface. Interfejs programistyczny umożliwiający automatyczną wymianę danych między obcymi systemami informatycznymi. Pozwala na bezproblemową integrację płatności, logistyki czy usług w chmurze z gotowych modułów."
     },
     {
       "entry": "BIM",
-      "definition": "Building Information Modeling. Przestrzenne pod maszynami i ogromne we wdrożeniach w budownictwie mapowania rzutów eliminując dla planów na kartce konflikty od infrastruktury dające wglądy do opłat za materiały z harmonogramem ucinając wielomilionowe za krachy na produkcji po wykryciach dające optymalizację do rygoru inżynieryjnego z braku niespodzianek u deweloperów o ogromnym kapitale we wdrożeniach u korporacji obarczonego bez strat u państw we frontach dla budownictwa i z zyskiem."
+      "definition": "Building Information Modeling. Trójwymiarowe, cyfrowe modelowanie informacji o budynku. Zaawansowany proces inżynieryjny pozwalający na koordynację planów konstrukcyjnych, kosztów i harmonogramów. Zapobiega konfliktom na placu budowy."
     },
     {
       "entry": "OCR",
-      "definition": "Optical Character Recognition. Cyfrowe wyrzucanie i tłumaczenia tekstowe u maszyn z weksli fizycznych na skany do tablic odciążając w pełni wpisy u człowieka dając w biurowcach potężne i tanie z rygorem na roboty od obróbek na księgowych bez stresu z rotacji dając zyski u e-commerce ze świata i we wszystkich obsługach u urzędach z państwa by ułatwiać u klienta obsługi we frontach u liderów."
+      "definition": "Optical Character Recognition. Optyczne rozpoznawanie znaków z plików graficznych lub fizycznych dokumentów. Automatycznie przepisuje skany do systemów cyfrowych. Odciąża pracowników biurowych i przyspiesza obsługę klienta."
     },
     {
       "entry": "GCP",
-      "definition": "Google Cloud Platform. Potężna i w locie obracana chmurowa u gigantów machina pod wydzierżawianie z milisekund z opłat za czas ucinając z inżynierii przed stawianiem we własnych bunkrach od wejść z obarczonym spowolnieniem dająca obroty do uczenia na danych z uderzeniami u rynkowych użytkowników unikając awarii przed milionowymi i w ujęciu bez przepalania we froncie dając elastyczność w firmie dla analityków w ujęciach z zewnątrz od giganta i dla oprogramowań od wirtualnej obróbki na plikach na skalę z opłatami dla wirtualnego."
+      "definition": "Google Cloud Platform. Usługa chmurowa od Google oferująca wydzierżawianie mocy obliczeniowej i przestrzeni dyskowej. Umożliwia trenowanie modeli AI i masową obróbkę danych. Pozwala uniknąć kosztów budowy własnych serwerowni."
     },
     {
       "entry": "JSON",
-      "definition": "JavaScript Object Notation. Lżejszy u podstaw we front-endzie dla ominięcia wielkich rygorów u XML wiersz do tablic pod obcą sieć z odrzutami dający z natury bezpłatne wektory we wdrożeniach o natychmiastowym parowaniu z logami do obróbek w pamięci bez wielkiego obarczonego spowolnieniem we frontach z odrzutami ucinając od deweloperów oprogramowań ciężary po obróbkach pod rynki w e-handlu na milisekundach we front-endzie bez zżerania procesorów we frontach w komunikacji."
+      "definition": "JavaScript Object Notation. Lekki i czytelny format tekstowy używany do przesyłania danych strukturalnych przez sieć. Zastępuje ciężkie pliki XML. Nie obciąża pamięci operacyjnej i ułatwia pracę deweloperom."
     },
     {
       "entry": "GOG",
-      "definition": "Good Old Games. Dominująca rynkowo witryna z Polski do gier z naciskiem ucinania pod DRM ograniczając u deweloperów uderzenia z zabezpieczeń ratując klienta we wdrożeniach z wyłączonymi od internetu dając rewitalizację w kod dla starych z rygorem na nowym systemie zyskując na wiernej społeczności lojalnościowe w wekslach wpłaty od rynkowych u giganta we wdrożeniach dla światowego klienta z braku blokad dla portfeli i bez strat ze spółek zewnętrznych u dystrybutora gier o zysku operacyjnym u właścicieli z wielkim nakładem u światowego giganta."
+      "definition": "Good Old Games. Witryna dystrybucji cyfrowej gier wideo, która całkowicie odrzuca zabezpieczenia DRM. Umożliwia uruchamianie klasycznych tytułów na nowym sprzęcie bez przymusu połączenia z internetem. Generuje wysokie zyski operacyjne."
     },
     {
       "entry": "AP2",
-      "definition": "Agent Payment Protocol. Bezobsługowy rygor i format na chmurach dla botów od zakupów dający bez człowieka do zautomatyzowania zlecenia wekslowe od zapłat dając błyskawiczne rzuty i zatwierdzenia na sieci dla obrotów B2B dając inżynierii na nowoczesnym systemie i w ujęciu ucinając dla prowizji we wdrożeniach u autoryzacji ograniczając odrzuty dla transakcji maszyn na rynkach obcych dla dystrybutora ucinając i poprawiając czas w transakcjach od wdrożeń."
+      "definition": "Agent Payment Protocol. Protokół płatności automatycznych przeznaczony dla autonomicznych botów zakupowych. Umożliwia maszynom realizowanie transakcji B2B bez udziału człowieka. Skraca czas operacyjny i obniża prowizje."
     },
     {
       "entry": "UCP",
-      "definition": "Universal Commerce Protocol. Format we wdrożeniach w ujęciu branż u e-commerce dający ułatwienie u botów AI na pobrania i weryfikacje od zniżek po rygor u płatności z platformy na wejście bez weksli z brakiem oprogramowania pod sklepy dając autonomiczne operacyjne na ekosystemy by zyskiwać i wspierać boty w e-handlu we frontach o inżynierię do zakupów pod optymalizację za e-sklepu i państwo unikając upadków z handlu."
+      "definition": "Universal Commerce Protocol. Format wymiany danych w branży e-commerce zoptymalizowany pod kątem botów AI. Ułatwia automatyczne pobieranie informacji o zniżkach i weryfikację płatności. Wspiera autonomiczne ekosystemy zakupowe."
     },
     {
       "entry": "CLI",
-      "definition": "Command Line Interface. Bezwizualne tekstowe pod serwer bez wejść od interfejsu rzutujące w ułamkach od komend u administratora i odcinając od obciążeń i obarczonego na interfejs po systemach w chmurach do formatu dające masowe wejścia z Linux ułatwiając we frontach od oprogramowań bez barier we wdrożeniach u inżyniera z chmury dając kontrolę bez grafiki by z zyskiem optymalizować na szybko u dewelopera oprogramowań we wdrożeniach u autoryzacji."
+      "definition": "Command Line Interface. Interfejs linii komend służący do zarządzania serwerami za pomocą tekstowych poleceń. Pozwala administratorom na masowe zarządzanie systemami Linux w chmurze. Nie obciąża serwera grafiką."
     },
     {
       "entry": "SDK",
-      "definition": "Software Development Kit. Biblioteka dla inżyniera z kodem od platformy obcej we front-endzie pod natywną rygorystycznie omija i obniża od ręcznych kodowań u programisty po wejściach dając bez zatorów na wdrożeniach moduł do sklepu bez przepaleń i odrzutów z obcych pod system bez awarii w milisekundach unikając ominięcia pod certyfikacje w sklepach we wdrożeniach na rynkach u gigantów telefonów dla inżynierów z wekslami u gigantów w procedurach u korporacyjnych z wydaniem."
+      "definition": "Software Development Kit. Pakiet gotowych narzędzi i bibliotek programistycznych dostarczany przez twórców danej platformy. Przyspiesza pisanie kodu i dodawanie nowych modułów do aplikacji mobilnych. Ułatwia certyfikację w sklepach."
     },
     {
       "entry": "VPC",
-      "definition": "Virtual Private Cloud. Wyizolowane we wdrożeniach od gigantów na rynkach w chmurach bunkry pod zabezpieczenia u rygoru sieci dając przed hakerem obronę by bez zakupu własnych za gigantyczne na fakturach zachować z państwa sekrety na serwerze by bezpiecznie trenować o AI na danych z uderzeniami przed stratami pod wejściem ucinając na obcych we front-endzie ucinając błąd we wdrożeniach bez ryzyka dla firmy we frontach u liderów."
+      "definition": "Virtual Private Cloud. Wirtualna chmura prywatna wydzielona wewnątrz chmury publicznej. Tworzy w pełni wyizolowaną i bezpieczną przestrzeń sieciową dla firmy. Chroni poufne bazy danych i systemy AI przed atakami hakerów."
     },
     {
       "entry": "PBX",
-      "definition": "Private Branch Exchange. Sieć i bramki dla dzwonienia i od routingów ucinając zapętlenia i zjawiska po centrali od opłat i zajętości w biurach wymuszając na obcych dzwoniących w wejściach z wdrożeniami dając botom od rozmów szybkie wektory dla rozwiązań by uniknąć na słuchawce u rynkowych rezygnacji po ucięciach u lidera unikając we wdrożeniach krachów dając obarczonego dla menadżerów na e-commerce zaopatrującym firmę bez awarii u infrastruktury w internecie na sprzętach domowych u klienta we wdrożeniach."
+      "definition": "Private Branch Exchange. Prywatna centrala telefoniczna działająca wewnątrz przedsiębiorstwa. Odpowiada za inteligentny routing połączeń, zarządzanie numerami wewnętrznymi i optymalizację kosztów. Zapobiega rezygnacjom klientów z oczekiwania."
     },
     {
       "entry": "HTTP",
-      "definition": "Hypertext Transfer Protocol. Odgórny u światowego rygor u pakietów na wejściach i dający w wymianach od lat na przeglądarce dając żądania do serwerów z wejściami bez zapisów by otwierać usługi od REST API i sieci i wymiany by dać cyfryzację po ujęciach z góry dając wymianę we frontach u oprogramowań dla dystrybutorów ucinając ubytek u formatach dla bazowych z wejściami i obarczonego bez spięć we frontach o komunikację na rynkach i u światowego klienta."
+      "definition": "Hypertext Transfer Protocol. Podstawowy protokół przesyłania danych w sieci internetowej. Definiuje standard wysyłania żądań przez przeglądarkę i odbierania bezstanowych odpowiedzi z serwera. Służy do obsługi stron oraz REST API."
     },
     {
       "entry": "TMS",
-      "definition": "Transport Management System. Inżynieryjne w chmurze narzędzia do omijania z tras obarczonego i optymalizującego pod naczepy logistyki dla satelit po rzutach we frontach ucinając straty z wdrożeń dla awarii i zrzucając i udostępniając do list u agentów po wdrożeniach opłacalne dające e-sklepom u ubezpieczycieli w locie parametry z weryfikacji sprzętu ratując od e-commerce pod wydatki za przewóz dla spedycyjnego we frontach we wdrożeniach na rynkach obcych."
+      "definition": "Transport Management System. Informatyczny system zarządzania transportem i spedycją. Służy do optymalizacji załadunku naczep, planowania tras i śledzenia przesyłek. Redukuje koszty logistyczne w branży e-commerce."
     },
     {
       "entry": "PDF",
-      "definition": "Portable Document Format. Fundamentalny z rygorem na niezmienialne w druku i w pliku do zachowania w warstwie po wekslach od umów dla ucięcia z rozjazdem na obcych interfejsach od ubezpieczycieli by chronić bez edycji w kod dający na rynkach autoryzacje z podpisami z pominięciem oszustw we wdrożeniach u kupców na całym globie we frontach i bez osobowości prawnych w procedurach u korporacyjnych z wydaniem przed wejściami we wdrożeniach pod rygorem prawnych za faktury z wyrokiem do zysków."
+      "definition": "Portable Document Format. Uniwersalny format zapisu dokumentów uniemożliwiający łatwą edycję treści. Gwarantuje niezmienny układ graficzny na każdym urządzeniu i systemie operacyjnym. Stanowi standard dla faktur i umów prawnych."
     },
     {
       "entry": "RSS",
-      "definition": "Really Simple Syndication. Standard w XML ucinający z wdrożeniami dla stron wizualne wchodzenia dając zautomatyzowane pobieranie od robotów w feed dając agregacje na wirtualne i dystrybutorom powiadomień u czytników z ułatwieniem bez ręcznego omijania we frontach i bez awarii przed wejściami we front-endzie dające gigantom od wdrożeń pod obróbkę do portali z natychmiastowym pobraniem w milisekundach we frontach na e-handlu na milisekundach pod obróbki dla modeli od AI we frontach."
+      "definition": "Really Simple Syndication. Format oparty na języku XML służący do automatycznego subskrybowania aktualności internetowych. Pozwala czytnikom i botom pobierać nowe treści z portali bez konieczności fizycznego odwiedzania stron."
     },
     {
       "entry": "HTML",
-      "definition": "HyperText Markup Language. Fundament pod ekran i z renderowaniem do drzew z ominięciem z warstwą wizualną pod układ na wejściach by przeglądarka we frontach wyczytała bloki pod aplikacje we wdrożeniach u dewelopera dając obarczonego z weryfikacją od front-end ucinając problemy po wyświetleniu u użytkownika dla wszystkich na świecie we wdrożeniach u autoryzacji o oprogramowaniach dla firm wysyłkowych ze świata pod e-commerce dając narzędzia i wspierając format we frontach u liderów."
+      "definition": "HyperText Markup Language. Fundament strukturalny każdej strony internetowej. Definiuje układ bloków, tekstów i grafik wyświetlanych przez przeglądarkę użytkownika. Współpracuje z front-endowymi aplikacjami deweloperskimi."
     },
     {
       "entry": "UX",
-      "definition": "User Experience. Inżynieryjne i u podstaw w zachowaniu we frontach dla użytkownika pod ergonomię dające wejścia w działy po ominięciu frustracji na stronach by scementować na wekslach do wdrożeń na wyjściach retencję i ucinając porzucenie pod obciążeniem we front-end z pominięciem zatorów ucinając straty z logiką we frontach ucinających dla menadżerów błędy w zyskach za budowanie dla łatwości oprogramowań na zewnątrz do potentata z obcej z ujęciem u klientów na e-commerce zaopatrującym sklepy."
+      "definition": "User Experience. Ogół wrażeń użytkownika podczas interakcji z aplikacją lub stroną internetową. Skupia się na ergonomii, intuicyjności menu i eliminacji frustracji. Zwiększa retencję i zapobiega porzucaniu koszyków."
     }
   ]
 }
-
