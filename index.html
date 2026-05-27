@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Umiejętności Jutra, tydzień 1 - 4</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <main class="app" aria-label="Terminal fiszek">
+            <header class="topbar">
+                <div class="brand">
+                    <span class="terminal-dot"></span>
+                    Umiejętności Jutra
+                </div>
+
+                <button
+                        id="restartBtn"
+                        class="btn btn-secondary"
+                        aria-label="Uruchom ponownie sesję"
+                        >
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/>
+                            <path d="M16 3h5v5"/>
+                            <path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/>
+                            <path d="M8 21H3v-5"/>
+                        </svg>
+                    Restart
+                </button>
+            </header>
+
+            <section class="stats-panel" aria-label="Statystyki">
+
+                <div class="stat-box danger">
+                    <span class="stat-label">BŁĘDNE</span>
+                    <span id="incorrectStat" class="stat-value">0</span>
+                </div>
+
+                <div class="stat-box info">
+                    <span class="stat-label">KOLEJKA / ŁĄCZNIE</span>
+                    <span class="stat-value">
+                        <span id="queueStat">0</span>/<span id="totalStat">0</span>
+                    </span>
+                </div>
+
+                <div class="stat-box success">
+                    <span class="stat-label">POPRAWNE</span>
+                    <span id="correctStat" class="stat-value">0</span>
+                </div>
+
+            </section>
+
+            <section class="selected-category">
+                <span class="selected-category-label">KATEGORIA</span>
+                <span id="selectedCategoryLabel" class="selected-category-value">-</span>
+            </section>
+
+            <section class="progress-section" aria-label="Postęp">
+                <div class="progress-meta">
+                    <span>POSTĘP SESJI</span>
+                    <span id="progressText">0%</span>
+                </div>
+
+                <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        aria-valuenow="0"
+                        >
+                        <div id="progressFill" class="progress-fill"></div>
+                </div>
+            </section>
+
+            <section class="card-stage">
+
+                <div id="loadingState" class="state-message">
+                    Ładowanie fiszek...
+                </div>
+
+                <div id="errorState" class="state-message hidden" role="alert">
+                    Nie udało się załadować cards.json
+                </div>
+
+                <div id="emptyState" class="state-message hidden">
+                    Brak dostępnych fiszek.
+                </div>
+
+                <!-- WYBÓR KATEGORII -->
+                <section id="categoryPicker" class="category-picker hidden">
+                    <div class="picker-card">
+                        <div class="picker-label">WYBIERZ KATEGORIĘ</div>
+
+                        <h2 class="picker-title">
+                            Wybierz zestaw fiszek
+                        </h2>
+
+                        <div
+                                id="categoryButtons"
+                                class="category-buttons"
+                                ></div>
+                    </div>
+                </section>
+
+                <!-- FISZKA -->
+                <article
+                        id="flashcard"
+                        class="flashcard hidden"
+                        tabindex="0"
+                        aria-label="Fiszka"
+                        >
+                        <div class="flashcard-inner">
+
+                            <!-- PRZÓD -->
+                    <div class="card-face card-front">
+                        <div class="card-category" id="frontCategory"></div>
+
+                        <h1 class="card-word" id="frontWord"></h1>
+
+                        <div class="hint-panel">
+                            <span>[SPACJA] OBRÓĆ</span>
+                            <span>[Y] POPRAWNE</span>
+                            <span>[N] BŁĘDNE</span>
+                        </div>
+                    </div>
+
+                    <!-- TYŁ -->
+                    <div class="card-face card-back">
+                        <div class="card-category" id="backCategory"></div>
+
+                        <h2 class="card-word" id="backWord"></h2>
+
+                        <div
+                                class="card-summary"
+                                id="cardSummary"
+                                ></div>
+
+                        <div class="hint-panel">
+                            <span>[SPACJA] OBRÓĆ</span>
+                        </div>
+                    </div>
+
+                        </div>
+                </article>
+            </section>
+
+            <section class="controls" aria-label="Sterowanie">
+
+                <button id="incorrectBtn" class="btn btn-danger">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M18 6 6 18" />
+                        <path d="m6 6 12 12" />
+                    </svg>
+                </button>
+
+                <button id="flipBtn" class="btn btn-primary">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M3 16a9 9 0 0 0 14.3 7.3L21 20l-3.3-3.3A9 9 0 0 0 3 16z" />
+                        <path d="M21 8a9 9 0 0 0-14.3-7.3L3 4l3.3 3.3A9 9 0 0 0 21 8z" />
+                    </svg>
+                </button>
+
+                <button id="correctBtn" class="btn btn-success">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M20 6 9 17l-5-5" />
+                    </svg>
+                </button>
+
+            </section>
+
+            <section id="endScreen" class="end-screen hidden">
+                <div class="results-shell">
+
+                    <div class="results-header">
+                        <div class="results-icon">🏁</div>
+
+                        <h2>SESJA ZAKOŃCZONA</h2>
+
+                        <div class="results-icon">🏆</div>
+                    </div>
+
+                    <div class="results-divider"></div>
+
+                    <div class="results-grid">
+
+                        <div class="result-card total">
+                            <div class="result-label">ŁĄCZNIE</div>
+                            <div id="endTotal" class="result-number">0</div>
+                        </div>
+
+                        <div class="result-card correct">
+                            <div class="result-label">POPRAWNE</div>
+                            <div id="endCorrect" class="result-number">0</div>
+                        </div>
+
+                        <div class="result-card incorrect">
+                            <div class="result-label">BŁĘDNE</div>
+                            <div id="endIncorrect" class="result-number">0</div>
+                        </div>
+
+                    </div>
+
+                    <div class="accuracy-panel">
+
+                        <div class="accuracy-left">
+                            <div class="accuracy-label">DOKŁADNOŚĆ</div>
+
+                            <div id="endAccuracy" class="accuracy-value">
+                                0%
+                            </div>
+                        </div>
+
+                        <div class="accuracy-right">
+                            <div class="accuracy-summary">
+                                Uzyskałeś
+                                <span id="accuracyCorrectText">0</span>
+                                z
+                                <span id="accuracyTotalText">0</span>
+                                poprawnych odpowiedzi
+                            </div>
+
+                            <div id="accuracyStars" class="accuracy-stars">
+                                ☆☆☆☆☆
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button
+                            id="restartSessionBtn"
+                            class="restart-hero-btn"
+                            >
+                            ↻ Uruchom ponownie sesję
+                    </button>
+
+                </div>
+            </section>
+        </main>
+
+        <script src="app.js"></script>
+    </body>
+</html>
