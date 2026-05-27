@@ -890,3 +890,63 @@ input {
         letter-spacing: 1px;
     }
 }
+
+/* =========================
+   PŁYWAJĄCA IKONA GITHUB
+========================= */
+
+.github-float {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 1000; /* Wyżej niż ekran podsumowania */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 48px;
+    height: 48px;
+
+    background: #0d1d1a;
+    color: var(--text);
+    border: 1px solid var(--panel-border);
+    border-radius: 50%;
+
+    box-shadow: 0 4px 12px var(--shadow);
+    text-decoration: none;
+
+    transition:
+        transform var(--transition),
+        color var(--transition),
+        border-color var(--transition),
+        box-shadow var(--transition);
+}
+
+.github-float:hover {
+    color: var(--green);
+    border-color: var(--green);
+    transform: translateY(-2px);
+    box-shadow:
+        0 0 16px rgba(41, 255, 135, 0.3),
+        0 4px 20px var(--shadow);
+}
+
+.github-float:active {
+    transform: scale(0.95);
+}
+
+/* Dostosowanie dla urządzeń mobilnych */
+@media (max-width: 768px) {
+    .github-float {
+        bottom: max(16px, env(safe-area-inset-bottom));
+        right: 16px;
+        width: 42px;
+        height: 42px;
+    }
+
+    .github-float svg {
+        width: 20px;
+        height: 20px;
+    }
+}
