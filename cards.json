@@ -1,6 +1,30 @@
 {
   "Sztuczna Inteligencja (AI) i Prompty": [
     {
+      "entry": "SynthID",
+      "definition": "Synthetic Identifier. Technologia niewidzialnego znaku wodnego dodawanego do obrazów i materiałów wideo generowanych przez AI. Wprowadza specjalny szum niewidoczny dla ludzkiego oka, który pozwala zweryfikować autentyczność treści. Ułatwia wykrywanie materiałów wygenerowanych sztucznie oraz ogranicza dezinformację. Jest stosowana m.in. do oznaczania treści tworzonych przez modele generatywne."
+    },
+    {
+      "entry": "Human in the Lead",
+      "definition": "Human in the Lead. Model współpracy z AI, w którym człowiek pozostaje głównym liderem i właścicielem całego procesu. Odpowiada za projektowanie workflow, wybór narzędzi, dostarczanie danych i ocenę ryzyka. AI pełni rolę wsparcia operacyjnego, a nie samodzielnego decydenta. Koncepcja podkreśla pełną odpowiedzialność człowieka za końcowe rezultaty."
+    },
+    {
+      "entry": "Human in the Loop",
+      "definition": "Human in the Loop. Mechanizm nadzoru, w którym człowiek zatwierdza lub koryguje wyniki generowane przez AI przed ich wdrożeniem. Pozwala ograniczać halucynacje modeli i błędne decyzje automatyczne. Jest szczególnie ważny w medycynie, finansach i prawie. Każda krytyczna decyzja wymaga akceptacji użytkownika lub eksperta."
+    },
+    {
+      "entry": "Reverse Prompting",
+      "definition": "Reverse Prompting. Technika odwróconego promptowania polegająca na analizie gotowego tekstu, obrazu lub grafiki przez AI w celu odtworzenia promptu źródłowego. Pozwala zrozumieć styl i strukturę wygenerowanej treści. Ułatwia tworzenie nowych materiałów o podobnym klimacie i estetyce. Jest wykorzystywana w generowaniu obrazów, marketingu i analizie treści AI."
+    },
+    {
+      "entry": "Cross model feedback",
+      "definition": "Cross Model Feedback. Metoda poprawy jakości odpowiedzi AI poprzez użycie jednego modelu do oceny pracy drugiego modelu. Pozwala wykrywać błędy, niespójności i halucynacje generowane przez szybsze lub tańsze systemy. Często stosuje się model bardziej zaawansowany do recenzji wyników modelu ekonomicznego. Zwiększa jakość odpowiedzi i bezpieczeństwo automatyzacji."
+    },
+    {
+      "entry": "GIGO",
+      "definition": "Garbage In, Garbage Out. Fundamentalna zasada informatyki i AI mówiąca, że jakość wyników zależy bezpośrednio od jakości danych wejściowych. Błędne dane lub źle napisany prompt prowadzą do słabych rezultatów generowanych przez model. Nawet najbardziej zaawansowana AI nie naprawi niepoprawnych informacji wejściowych. Zasada jest kluczowa podczas projektowania systemów analitycznych i agentów AI."
+    },
+    {
       "entry": "AI",
       "definition": "Artificial Intelligence. Technologia umożliwiająca maszynom wykonywanie zadań wymagających ludzkiego myślenia. Obejmuje analizę danych, rozpoznawanie obrazów oraz generowanie treści. Służy do automatyzacji procesów w biznesie, medycynie i obsłudze klienta."
     },
@@ -58,6 +82,14 @@
     }
   ],
   "Marketing i Reklama": [
+    {
+      "entry": "SPIN",
+      "definition": "Situation, Problem, Implication, Need-payoff. Framework sprzedażowy oparty na zadawaniu pytań sytuacyjnych, problemowych, o konsekwencje oraz o wartość rozwiązania. Pomaga klientowi samodzielnie zrozumieć skalę problemu i potrzebę zakupu. Technika jest szeroko wykorzystywana w sprzedaży B2B i konsultingu. Zwiększa skuteczność rozmów handlowych bez agresywnej sprzedaży."
+    },
+    {
+      "entry": "Kwiat lotosu",
+      "definition": "Kwiat lotosu. Technika kreatywnego myślenia służąca do rozwijania i porządkowania pomysłów wokół jednego centralnego zagadnienia. Polega na tworzeniu ośmiu powiązanych tematów, które następnie rozwija się jako kolejne centra analizy. Metoda pomaga generować innowacyjne rozwiązania i strukturyzować burze mózgów. Jest wykorzystywana w strategii, marketingu i projektowaniu produktów."
+    },
     {
       "entry": "AIDA",
       "definition": "Attention, Interest, Desire, Action. Klasyczny model komunikacji marketingowej opisujący etapy decyzji klienta w lejku zakupowym. Nakazuje przyciągnąć uwagę, wzbudzić zainteresowanie, wywołać pożądanie i skłonić do działania. Stosowany w reklamach i na stronach sprzedażowych."
@@ -282,6 +314,10 @@
     }
   ],
   "Technologia i Infrastruktura IT": [
+    {
+      "entry": "DoW",
+      "definition": "Denial of Wallet. Typ ataku cybernetycznego polegający na generowaniu ogromnych kosztów korzystania z usług AI lub chmurowych. Napastnik wymusza nadmierne zużycie tokenów, mocy obliczeniowej lub płatnych zapytań API. Może prowadzić do drastycznego wzrostu rachunków finansowych firmy. Atak często wykorzystuje pętle agentów AI lub masowe automatyczne zapytania."
+    },
     {
       "entry": "API",
       "definition": "Application Programming Interface. Interfejs programistyczny umożliwiający automatyczną wymianę danych między obcymi systemami informatycznymi. Pozwala na bezproblemową integrację płatności, logistyki czy usług w chmurze z gotowych modułów."
