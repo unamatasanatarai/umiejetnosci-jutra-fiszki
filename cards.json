@@ -1,6 +1,30 @@
 {
   "Sztuczna Inteligencja (AI) i Prompty": [
     {
+      "entry": "C2PA",
+      "definition": "Coalition for Content Provenance and Authenticity. Standard umożliwiający sprawdzenie historii edycji oraz narzędzi użytych do stworzenia danego pliku. Buduje zaufanie do pochodzenia i autentyczności treści cyfrowych."
+    },
+    {
+      "entry": "Kwantyzacja",
+      "definition": "Kwantyzacja. Technika zmniejszania precyzji wag modelu, co redukuje jego wymagania sprzętowe, np. ilość pamięci RAM. Dzięki temu duże modele można uruchamiać na słabszym sprzęcie przy zachowaniu większości ich możliwości."
+    },
+    {
+      "entry": "Context docs",
+      "definition": "Context Documents. Zewnętrzne pliki, np. dokumenty PDF, notatki lub dane z dysku, służące do zasilania promptu konkretną wiedzą. Pozwalają budować bazę wiedzy, dzięki której AI opiera odpowiedzi na dostarczonych materiałach zamiast na wiedzy ogólnej."
+    },
+    {
+      "entry": "AI slop",
+      "definition": "Artificial Intelligence Slop. Termin określający niskiej jakości treści generowane masowo przez AI, które zaśmiecają internet. Są tworzone bez istotnego nadzoru człowieka i często zawierają błędy lub są pozbawione wartości merytorycznej."
+    },
+    {
+      "entry": "Osobista rada nadzorcza AI",
+      "definition": "Osobista rada nadzorcza AI. Koncepcja stworzenia zespołu wyspecjalizowanych asystentów AI, z których każdy pełni inną rolę ekspercką, np. stratega, krytyka lub specjalisty IT. Pozwala użytkownikowi uzyskać wielostronną konsultację problemu przed podjęciem decyzji."
+    },
+    {
+      "entry": "Multimodalność",
+      "definition": "Multimodalność. Zdolność nowoczesnych modeli AI do jednoczesnego przetwarzania i generowania różnych typów danych. Oznacza możliwość pracy z tekstem, obrazami, dźwiękiem oraz materiałami wideo w ramach jednego systemu."
+    },
+    {
       "entry": "SynthID",
       "definition": "Synthetic Identifier. Technologia niewidzialnego znaku wodnego dodawanego do obrazów i materiałów wideo generowanych przez AI. Wprowadza specjalny szum niewidoczny dla ludzkiego oka, który pozwala zweryfikować autentyczność treści. Ułatwia wykrywanie materiałów wygenerowanych sztucznie oraz ogranicza dezinformację. Jest stosowana m.in. do oznaczania treści tworzonych przez modele generatywne."
     },
